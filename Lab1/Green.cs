@@ -85,6 +85,7 @@
             bool answer = false;
 
             // code here
+            double Limit;
 
             // end
 
