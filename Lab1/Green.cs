@@ -86,7 +86,18 @@
 
             // code here
             double Limit;
-
+            if (x < 0)
+            {
+                Limit = 1 + x;
+            }
+            else
+            {
+                Limit = 1 - x;
+            }
+            if (y >= 0 && y <= Limit)
+            {
+                answer = true;
+            }
             // end
 
             return answer;
@@ -107,7 +118,6 @@
             {
             answer = false;
             }
-}
             // end
 
             return answer;
@@ -117,7 +127,12 @@
             bool answer = false;
 
             // code here
-
+            int t = (X + 1) / 2;
+            int s = t * Y;
+            if (X>=7 && s >= 240 && s <= 360)
+            {
+                answer = true;
+            }
             // end
 
             return answer;
