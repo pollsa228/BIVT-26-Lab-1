@@ -11,7 +11,6 @@
             answer = true;
             }
             // end
-
             return answer;
         }
         public bool Task2(double d, double f)
